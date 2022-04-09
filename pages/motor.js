@@ -50,7 +50,7 @@ export default function Motor() {
           </thead>
           {post.map((data) => {
             return (
-              <tbody>
+              <tbody key={data.id}>
                 <tr key={data.id}>
                   <td key={data.id}>
                     {moment(data.subscribeDate).format(
