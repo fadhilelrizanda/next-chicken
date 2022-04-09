@@ -47,7 +47,7 @@ export default function Motor() {
       <main className={styles.main}>
         <form>
           <div className="form-group">
-            <label for="exampleFormControlSelect1">Relay 1 {relay1} </label>
+            <label>Relay 1 {relay1} </label>
             <select
               className="form-control"
               id="exampleFormControlSelect1"
@@ -60,7 +60,7 @@ export default function Motor() {
           </div>
 
           <div className="form-group">
-            <label for="exampleFormControlSelect1">Relay 2 {relay2} </label>
+            <label>Relay 2 {relay2} </label>
             <select
               className="form-control"
               id="exampleFormControlSelect1"
@@ -73,7 +73,7 @@ export default function Motor() {
           </div>
 
           <div className="form-group">
-            <label for="exampleFormControlSelect1">Relay 3 {relay3} </label>
+            <label>Relay 3 {relay3} </label>
             <select
               className="form-control"
               id="exampleFormControlSelect1"
@@ -86,7 +86,7 @@ export default function Motor() {
           </div>
 
           <div className="form-group">
-            <label for="exampleFormControlSelect1">Relay 4 {relay4} </label>
+            <label>Relay 4 {relay4} </label>
             <select
               className="form-control"
               id="exampleFormControlSelect1"
