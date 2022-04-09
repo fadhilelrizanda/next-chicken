@@ -52,17 +52,17 @@ export default function Motor() {
             return (
               <tbody>
                 <tr key={data.id}>
-                  <td>
+                  <td key={data.id}>
                     {moment(data.subscribeDate).format(
                       "MMMM Do YYYY, h:mm:ss:SSS"
                     )}
                   </td>
-                  <td>{data.name}</td>
-                  <td>{data.device}</td>
-                  <td>{data.relay1}</td>
-                  <td>{data.relay2}</td>
-                  <td>{data.relay3}</td>
-                  <td>{data.relay4}</td>
+                  <td key={data.id}>{data.name}</td>
+                  <td key={data.id}>{data.device}</td>
+                  <td key={data.id}>{data.relay1}</td>
+                  <td key={data.id}>{data.relay2}</td>
+                  <td key={data.id}>{data.relay3}</td>
+                  <td key={data.id}>{data.relay4}</td>
                 </tr>
               </tbody>
             );

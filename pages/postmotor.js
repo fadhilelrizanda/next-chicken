@@ -46,10 +46,10 @@ export default function Motor() {
 
       <main className={styles.main}>
         <form>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleFormControlSelect1">Relay 1 {relay1} </label>
             <select
-              class="form-control"
+              className="form-control"
               id="exampleFormControlSelect1"
               value={relay1}
               onChange={(e) => setRelay1(e.target.value)}
@@ -59,10 +59,10 @@ export default function Motor() {
             </select>
           </div>
 
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleFormControlSelect1">Relay 2 {relay2} </label>
             <select
-              class="form-control"
+              className="form-control"
               id="exampleFormControlSelect1"
               value={relay2}
               onChange={(e) => setRelay2(e.target.value)}
@@ -72,10 +72,10 @@ export default function Motor() {
             </select>
           </div>
 
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleFormControlSelect1">Relay 3 {relay3} </label>
             <select
-              class="form-control"
+              className="form-control"
               id="exampleFormControlSelect1"
               value={relay3}
               onChange={(e) => setRelay3(e.target.value)}
@@ -85,10 +85,10 @@ export default function Motor() {
             </select>
           </div>
 
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleFormControlSelect1">Relay 4 {relay4} </label>
             <select
-              class="form-control"
+              className="form-control"
               id="exampleFormControlSelect1"
               value={relay4}
               onChange={(e) => setRelay4(e.target.value)}
